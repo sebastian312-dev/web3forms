@@ -1,31 +1,32 @@
 # Web3Forms
 
-A decentralized alternative to Google Forms powered by Ethereum, IPFS, and wallet authentication.
+Web3Forms is a decentralized, open-source form builder designed for the Web3 ecosystem. Using wallet authentication and IPFS/Filecoin storage, it allows DAOs, crypto teams, and privacy-focused users to collect data securely and transparently — without centralized services.
 
-## Features
-- 🛡️ Decentralized storage (IPFS/Filecoin)
-- 🔑 Wallet-based authentication
-- 🛠️ Easy-to-build forms
-- 📊 Collect secure responses
+---
 
-## Getting Started
+## 🚀 Features
 
-1. Clone repo  
-2. Install dependencies  
-3. Deploy contracts to Sepolia/Testnet  
-4. Run frontend (Next.js)
+- 🔐 Wallet-based Authentication (MetaMask, WalletConnect)
+- 🌐 Decentralized Storage via IPFS/Filecoin
+- 🛡️ Token-Gated / DAO-Restricted Forms
+- 🧾 Customizable Form Builder UI
+- 🔒 Optional Encryption for Responses
+- 📦 Open Source and Self-Hostable
 
-## Tech Stack
-- Solidity / Hardhat
-- IPFS / Filecoin
-- Next.js (React)
-- TailwindCSS
+---
 
-## Roadmap
-- v1: Basic form builder & response storage
-- v2: File attachments & response encryption
-- v3: DAO voting forms integration
+## 🛠 Tech Stack
 
-## License
-MIT
+- **Frontend:** Next.js + Tailwind CSS
+- **Smart Contracts:** Solidity / Hardhat
+- **Storage:** IPFS / Filecoin
+- **Wallet Integration:** ethers.js, wagmi
 
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/sebastian312-dev/web3forms.git
+cd web3forms
+npm install
